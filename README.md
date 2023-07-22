@@ -1,4 +1,6 @@
-# my-LanguageTool-docker-compose
+### ⚠️ LaungageTool Self-Hosted Version doesn't have Premium, If you want Premium just purchase their Premium Plan and support the developers. [Issue#5591](https://github.com/languagetool-org/languagetool/issues/5591) and [Issue#6750](https://github.com/languagetool-org/languagetool/issues/6750) Also, Currently there isn't a android app yet, But there is a iOS app... But it is outdated so just use the Browser Extensions for now to set your Custom URL. ⚠️
+
+### my-LanguageTool-Docker-Compose
 LanguageTool Is a Open-Source Best Free Alternative to Grammarly for Multiple Languages.
 
 | Domain | CDN/DDoS Protection | Provider | Country |
@@ -6,29 +8,34 @@ LanguageTool Is a Open-Source Best Free Alternative to Grammarly for Multiple La
 | [langapi.whateveritworks.org](https://langapi.whateveritworks.org/) (Official Instance) | Cloudflare | Hetzner | Germany 
 If you use my public api instance, it has a ratelimit/return vistor ips to prevent abuse. All ngrams now supported on my api. :)
 
-## Usage:
+### Automatic Installs
+```
+https://github.com/WhateverItWorks/Watchtower
+```
 
-1. Buy [Hetzner.com](https://hetzner.com) it's 100% renewal hardware and you get affordable dedicated servers, and you also help save the world.
+### €⁠20 [Hetzner Cloud](https://hetzner.cloud/?ref=eLtKhFK70n4h)
+### [Cloudflare: 100% Green Renewal](https://blog.cloudflare.com/cloudflare-committed-to-building-a-greener-internet/)
 
-2. Get [Cloudflare](https://cloudflare.com) it's carbon renewal and you help save the world.
+### Deploy with Docker
 
-3. ```apt install git```
+```
+apt install git
+https://github.com/WhateverItWorks/My-LanguageTool-Docker-Compose.git lang
+cd lang
+nano docker-compose.yml
+docker-compose up -d
+```
+http://localhost:8010
 
-4. ```git clone https://github.com/WhateverItWorks/My-LanguageTool-Docker-Compose.git lang```
-
-5. ```nano docker-compose.yml```
-
-6. ```docker-compose up -d```
-
-```http://localhost:8010```
-
-### Self-Host Custom URL Support (Extensions)
+### Where to do i enter your self-hosted LanguageTool URL?
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/languagetool/)
 - [Chrome](https://chrome.google.com/webstore/detail/grammar-checker-paraphras/oldceeleldhonbafppcapldpdifcinji?utm_source=lt-homepage)
 
 ### Self-Host Custom URL Support (Mobile)
+```
 iOS & Android has yet to have custom self-host url support.
+```
 
 ### Sources
 
