@@ -1,6 +1,6 @@
 ### ⚠️ LaungageTool Self-Hosted Version doesn't have Premium, If you want Premium just purchase their Premium Plan and support the developers. [Issue#5591](https://github.com/languagetool-org/languagetool/issues/5591) and [Issue#6750](https://github.com/languagetool-org/languagetool/issues/6750) Also, Currently there isn't a android app yet, But there is a iOS app... But it is outdated so just use the Browser Extensions for now to set your Custom URL. ⚠️
 
-### my-LanguageTool-Docker-Compose
+### LanguageTool
 LanguageTool Is a Open-Source Best Free Alternative to Grammarly for Multiple Languages.
 
 | Domain | CDN/DDoS Protection | Provider | Country |
